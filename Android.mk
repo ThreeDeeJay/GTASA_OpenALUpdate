@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_CPP_EXTENSION := .cpp .cc
-LOCAL_MODULE    := OpenALUpdate
+LOCAL_MODULE    := openal
 
 # Google Oboe
 FILE_LIST := $(wildcard $(LOCAL_PATH)/oboe/src/aaudio/*.cpp)
